@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+
+body,
+html {
+    font-family: -apple-system, BlinkMacSystemFont, "Apple Color Emoji",
+        "Segoe UI Emoji", "Segoe UI Symbol", "Segoe UI", "PingFang SC",
+        "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica,
+        Arial, sans-serif;
+    margin: 0;
+
+    .mantine-AppShell-main {
+        height: 100vh;
+        max-height: 100vh;
+        padding: 0px;
+        overflow: hidden;
+        background-color: #f0f2f5;
+        //padding: calc(0px + 16px);
+    }
+}
+
+.mosaic.mosaic-blueprint-theme{
+    background-color: #f0f2f5 !important;
+}
+
+.micro-app-container{
+    .mantine-ScrollArea-viewport{
+        height: 100%;
+        display: block !important;
+
+        & > div{
+            height: 100%;
+            display: block !important;
+
+            micro-app, micro-app-body{
+                height: 100%;
+            }
+
+            micro-app-body{
+                & > div[id]{
+                    height: 100%;
+                }
+            }
+        }
+    }
+}

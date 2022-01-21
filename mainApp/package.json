@@ -1,0 +1,70 @@
+{
+    "name": "base_app",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@craco/craco": "^6.4.3",
+        "@hookstate/core": "^3.0.13",
+        "@hookstate/devtools": "^3.0.1",
+        "@mantine/core": "^3.4.0",
+        "@mantine/dates": "^3.4.0",
+        "@mantine/dropzone": "^3.4.0",
+        "@mantine/hooks": "^3.4.0",
+        "@mantine/modals": "^3.4.0",
+        "@mantine/notifications": "^3.4.0",
+        "@mantine/prism": "^3.4.0",
+        "@mantine/rte": "^3.4.0",
+        "@micro-zoe/micro-app": "^0.7.1",
+        "@modulz/radix-icons": "^4.0.0",
+        "@react-icons/all-files": "^4.1.0",
+        "@testing-library/jest-dom": "^5.16.1",
+        "@testing-library/react": "^12.1.2",
+        "@testing-library/user-event": "^13.5.0",
+        "@types/jest": "^27.0.3",
+        "@types/node": "^16.11.13",
+        "@types/react": "^17.0.37",
+        "@types/react-dom": "^17.0.11",
+        "craco-alias": "^3.0.1",
+        "dayjs": "^1.10.7",
+        "lodash": "^4.17.21",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-feather": "^2.0.9",
+        "react-mosaic-component": "^5.0.0",
+        "react-router-dom": "^6.1.1",
+        "react-scripts": "5.0.0",
+        "sass": "^1.45.0",
+        "typescript": "^4.5.4",
+        "web-vitals": "^2.1.2"
+    },
+    "scripts": {
+        "start": "craco start",
+        "build": "craco build",
+        "test": "craco test",
+        "_start": "react-scripts start",
+        "_build": "react-scripts build",
+        "_test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "@types/lodash": "^4.14.178"
+    }
+}
